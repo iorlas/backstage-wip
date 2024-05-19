@@ -1,17 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: org-data
+  name: localdemo-index
 spec:
   type: url
   targets:
     - https://github.com/iorlas/backstage-wip/blob/main/catalog-info.pattern.yaml
-    - http://github.com/myorg/myproject/org-data-dump/catalog-info-consultants.yaml
+    - https://github.com/iorlas/backstage-wip/blob/main/catalog-info.pattern-version.yaml
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage
+  name: localdemo-index
   description: |
     Backstage is an open-source developer portal that puts the developer experience first.
   annotations:
