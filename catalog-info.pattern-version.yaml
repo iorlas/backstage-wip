@@ -7,4 +7,4 @@ spec:
   owner: CNCF
   lifecycle: experimental
   system: patterns-security
-  subcomponentOf: component/localdemo-pattern
+  subcomponentOf: localdemo-pattern
