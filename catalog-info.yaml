@@ -7,3 +7,4 @@ spec:
   targets:
     - https://github.com/iorlas/backstage-wip/blob/main/catalog-info.pattern.yaml
     - https://github.com/iorlas/backstage-wip/blob/1.1/catalog-info.pattern-version.yaml
+    - https://github.com/iorlas/backstage-wip/blob/1.2/catalog-info.pattern-version.yaml
