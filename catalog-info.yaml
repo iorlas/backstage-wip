@@ -1,17 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: localdemo-pattern
-spec:
-  type: library
-  owner: CNCF
-  lifecycle: experimental
----
-apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: localdemo-pattern-index
 spec:
   type: url
   targets:
+    - https://github.com/iorlas/backstage-wip/blob/main/catalog-info.pattern.yaml
     - https://github.com/iorlas/backstage-wip/blob/1.1/catalog-info.pattern-version.yaml
